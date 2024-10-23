@@ -291,18 +291,17 @@
           :options="PO_data"
           v-model="modelState.po_id"
           @change="onPOChange"
-          :class="{'p-invalid' : errorMessage.po_id && !modelState.po_id }"
-        />
+          :class="getClass1(errorMessage.po_id&&!modelState.po_id)"/>
         <small v-if="!modelState.po_id" class="p-error">{{ errorMessage.po_id }}</small>
       </div>
       <div class="col-12 md:col-3 flex flex-column gap-2">
         <label class="p-label">Ngày chứng từ<sup class="p-important">*</sup></label>
-        <Calendar v-model="modelState.docs_date" dateFormat="dd/mm/yy" :class="{'p-invalid' : errorMessage.docs_date && !modelState.docs_date }"></Calendar>
+        <Calendar v-model="modelState.docs_date" dateFormat="dd/mm/yy" :class="getClass1(errorMessage.docs_date && !modelState.docs_date)"></Calendar>
         <small v-if="!modelState.docs_date" class="p-error">{{ errorMessage.docs_date }}</small>
       </div>
       <div class="col-12 md:col-3 flex flex-column gap-2">
         <label class="p-label">Ngày nhập kho<sup class="p-important">*</sup></label>
-        <Calendar v-model="modelState.stock_entry_date" dateFormat="dd/mm/yy" :class="{'p-invalid' : errorMessage.stock_entry_date && !modelState.stock_entry_date }"></Calendar>
+        <Calendar v-model="modelState.stock_entry_date" dateFormat="dd/mm/yy" :class="getClass1(errorMessage.stock_entry_date && !modelState.stock_entry_date)"></Calendar>
         <small v-if="!modelState.stock_entry_date" class="p-error">{{ errorMessage.stock_entry_date }}</small>
       </div>
       <div class="col-12 md:col-4 flex flex-column gap-2">
@@ -358,13 +357,15 @@
             <Column field="ItemName" header="Tên hàng hoá"></Column>
             <Column header="Chứng từ" style="width: 10rem;">
               <template #body="slotProps">
-                <InputNumber class="custome_n_input" v-model="slotProps.data.DocQuantity"
+                <!-- <InputNumber class="custome_n_input" v-model="slotProps.data.DocQuantity"
                   showButtons
                   :min="0"
                   :disabled="!modelState.selected_items.find(x => x.ID == slotProps.data.ID)"
                   :max="slotProps.data.OpenQuantity"
-                >
-                </InputNumber>
+                ></InputNumber> -->
+                <div class="flex justify-center">
+                  {{ slotProps.data.OpenQuantity }}
+                </div>
               </template>  
             </Column>
             <Column header="Thực nhập" style="width: 10rem;">
@@ -833,6 +834,15 @@ const showError = (e) => {
     life: 3000,
   });
 };
+
+const getClass1 = (condition) => {
+  if(condition){
+    return {'p-invalid': condition}
+  }
+  return null
+
+}
+
 </script>
 
 <style>
