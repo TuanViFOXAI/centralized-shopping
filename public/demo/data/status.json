@@ -1,0 +1,14 @@
+[
+    {
+        "key":"A",
+        "value":"Hoạt Động"
+    },
+    {
+        "key":"I",
+        "value":"Không Hoạt Động"
+    },
+    {
+        "key":"S",
+        "value":"Dừng"
+    }
+]

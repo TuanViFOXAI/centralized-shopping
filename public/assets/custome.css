@@ -1,0 +1,17 @@
+:root{
+  --disabled-background: #d4d7e5;
+}
+.p-input-button > input{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  .p-input-button > button{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  input:read-only {
+    background-color: var(--disabled-background);
+    color: #4b5563;
+  }

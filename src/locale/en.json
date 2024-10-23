@@ -1,0 +1,270 @@
+{
+    "server_error": {
+        "error_data": "Failed to load data"
+    },
+    "severity": {
+        "success": "Success",
+        "info": "Information",
+        "warn": "Warning",
+        "error": "Error"
+    },
+    "toast_message": {
+        "add_success": "Successfully added %{0}",
+        "edit_success": "Successfully edited",
+        "duplicate_name": "%{0} already exists",
+        "delete_success": "Successfully deleted",
+        "error_code": "Code already exists",
+        "error_code1": "Code %{0} already exists",
+        "not_found_record": "No records found",
+        "not_found_record1": "%{0} not found"
+    },
+    "valid_msg": {
+        "null": "%{0} is required",
+        "leng": "%{0} can not over %{1} characters",
+        "ConfDelete": "Confirm delete of %{0}",
+        "ConfDelete2": "Confirm delete"
+    },
+    "Button": {
+        "AddNew": "Add new",
+        "Cancel": "Cancel",
+        "Save": "Save",
+        "Delete": "Delete",
+        "Edit": "Edit"
+    },
+    "InputText": {
+        "Search": "Search"
+    },
+    "Status": {
+        "Active": "Active",
+        "InActive": "Inactive",
+        "Status": "Status",
+        "Invited": "Invited",
+        "Registered": "Registered",
+        "Unregistered": "Unregistered",
+        "SelectStatus": "Select status"
+    },
+    "Action": {
+        "deletion": "Confirm deletion",
+        "deletionnoti": "Are you sure you want to delete ",
+        "deletionnoti1": "record?",
+        "act": "Action",
+        "SelectRows": "Select the action for the %{0} selected lines"
+    },
+    "OrgStrct": {
+        "Header": "Organizational structure",
+        "SelectRows": "Custome %{0} selected items",
+        "TableName": "List of subordinate units",
+        "UnitLevel": "Unit level",
+        "UnitCode": "Unit code",
+        "BelongDepartment": "Belongs to unit",
+        "OrgLevel": "Organization level",
+        "SelectOrgLevel": "Select organization level",
+        "ParentUnit": "Parent unit",
+        "Status": "Status",
+        "Action": "Action",
+        "add": "Add new organizational structure",
+        "edit": "Edit organizational structure",
+        "Pagging": "{0} to {1} of {2}",
+        "to": "to",
+        "of": "of"
+    },
+    "Orglv": {
+        "Header": "organizational level directory",
+        "OrlName": "Organizational level",
+        "OrlDesc": "Description",
+        "is_active": "Status",
+        "A": "Active",
+        "I": "Inactive",
+        "act": "Action",
+        "add": "Add new organization level",
+        "edit": "Edit organization level",
+        "deletion": "Confirm deletion",
+        "deletionnoti": "Are you sure you want to delete ",
+        "deletionnoti1": "record?",
+        "validate": "Organization level cannot be left blank."
+    },
+    "supplier_catalog": {
+        "header": "Supplier Catalog",
+        "index": "No.",
+        "tax": "Tax ID",
+        "name": "Supplier Name",
+        "address": "Address",
+        "phone": "Phone Number",
+        "field_profession": "Professions And Fields",
+        "status": "Status",
+        "registration_status": "Registration Status"
+    },
+    "supplier_group": {
+        "header": "Supplier group directory",
+        "group_code": "Supplier code",
+        "group_name": "Supplier name",
+        "is_active": "Status",
+        "A": "Active",
+        "I": "Inactive",
+        "act": "Action",
+        "add": "Add new supplier group",
+        "edit": "Edit supplier group information",
+        "validate": "The supplier code cannot be left blank.",
+        "validate1": "Supplier name cannot be left blank."
+    },
+    "supplier_information": {
+        "header": "Company Information Management",
+        "overview": "Overview",
+        "acc_info_link": "Account Information",
+        "contact": "Contact Information",
+        "certificate": "Certificate",
+        "document": "Document",
+        "capability_profile": "Capability Profile",
+        "tax": "Tax: %{0}",
+        "phone": "Phone: %{0}",
+        "email": "Email: %{0}",
+        "founded": "Founded",
+        "address": "Head office address",
+        "employes": "Number of Employees"
+    },
+    "system_permision": {
+        "header": "System permission",
+        "user": "User",
+        "user_group": "User group",
+        "copy_permission": "Copy permission"
+    },
+    "purchasing_plans": {
+        "header": "Management of Procurement Plans",
+        "plan_name": "Plan Name",
+        "plan_name_holder": "Enter plan name",
+        "plan_code": "Plan Code",
+        "creater": "Creator",
+        "father": "Unit",
+        "father_holder": "Select the unit proposing the plan",
+        "expiry": "Execution Time",
+        "year_holder": "Year",
+        "quarter_holder": "Quarter",
+        "quarters": [
+            {
+                "value": "Q1",
+                "label": "Quarter 1"
+            },
+            {
+                "value": "Q2",
+                "label": "Quarter 2"
+            },
+            {
+                "value": "Q3",
+                "label": "Quarter 3"
+            },
+            {
+                "value": "Q4",
+                "label": "Quarter 4"
+            }
+        ],
+        "statusOptions": [
+            {
+                "value": "A",
+                "label": "Active"
+            },
+            {
+                "value": "I",
+                "label": "Inactive"
+            }
+        ],
+        "status": "Approval Status",
+        "tab_1": "List of materials and goods to be purchased",
+        "tab_2": "Attached Documents"
+    },
+    "login": {
+        "header": "Welcome to Centralized Shopping System",
+        "sub_header": "Log in to continue",
+        "user_name": "Username",
+        "inner_user_name": "Enter username",
+        "username_required": "Username required",
+        "invalid_password": "Password: at least 8 characters, contains at least one letter and one number",
+        "invalid_email": "Invalid Email",
+        "password_required": "Password required",
+        "password": "Password",
+        "inner_password": "Enter password",
+        "remember_password": "Remember password",
+        "forget_password": "Forgot password?",
+        "log_in": "Log in",
+        "vi_lang": "Vietnamese",
+        "en_lang": "English"
+    },
+    "user_management": {
+        "header": "User list",
+        "user_name": "Username",
+        "email": "Email",
+        "father": "Affiliated Unit",
+        "dl_title": "Add New User"
+    },
+    "user_group": {
+        "object_name": "User Group",
+        "header": "User Group List",
+        "group_name": "Group Name",
+        "user_quantity": "Number of Users",
+        "users": "User List",
+        "user": "User",
+        "add_user": "Add User",
+        "dsc": "Description",
+        "date": "Creation Date",
+        "status": "Status",
+        "title_add": "Add New User Group",
+        "title_add_user": "Add New User To Group",
+        "plh_name": "Enter user group name",
+        "title_update": "Edit User Group",
+        "del_title": "Confirm Delete User Group",
+        "del_detail": "Do you want to delete the user group %{0}?"
+    },
+    "menu": {
+        "menu_0": "Menu",
+        "menu_1": "Home",
+        "menu_2": "Enterprise Information Management",
+        "menu_2_1": "Organizational Structure",
+        "menu_2_1_1": "Organizational Structure Category",
+        "menu_2_1_2": "Organizational Structure Level",
+        "menu_2_2": "Suppliers",
+        "menu_2_2_1": "Supplier Category",
+        "menu_2_2_2": "Supplier Group",
+        "menu_2_3": "Inventory Management",
+        "menu_2_3_1": "Inventory Category",
+        "menu_2_3_2": "Inventory Group",
+        "menu_2_3_3": "Unit of Measurement",
+        "menu_2_3_4": "Unit of Measurement Group",
+        "menu_2_4": "Industry Sector",
+        "menu_2_5": "Procurement Method",
+        "menu_2_6": "Supplier Evaluation Criteria",
+        "menu_2_7": "Profile Status",
+        "menu_3": "System Settings",
+        "menu_3_1": "User Management",
+        "menu_3_1_1": "Users",
+        "menu_3_1_2": "User Groups",
+        "menu_3_2": "System Permissions",
+        "menu_3_3": "Approval Processes",
+        "menu_3_3_1": "Approval Level",
+        "menu_3_3_2": "Approval Template",
+        "menu_3_3_3": "Approval status report",
+        "menu_3_3_4": "Report approval decision",
+        "menu_3_4": "Scoring Criteria",
+        "menu_3_4_1": "Set criteria",
+        "menu_3_4_2": "Set weights",
+        "menu_3_5": "Procurement Processes",
+        "menu_3_6": "Notification Settings",
+        "menu_3_7": "General System Settings",
+        "menu_4": "Purchase Management",
+        "menu_4_1": "Purchase Plans",
+        "menu_4_2": "Purchase Requests",
+        "menu_4_3": "Aggregated Purchase Requests",
+        "menu_4_4": "Package Management",
+        "menu_4_5": "Scoring and Approval",
+        "menu_4_5_1": "List of records",
+        "menu_4_5_2": "Scoring - Choice",
+        "menu_4_6": "Create Link, Send Email to Supplier",
+        "menu_4_7": "Supplier Evaluation",
+        "menu_4_8": "Purchase Order",
+        "menu_5": "Reports",
+        "menu_vd_2": "Information management",
+        "menu_vd_3": "Contract package management",
+        "menu_vd_4": "Reports",
+        "menu_vd_4_1": "Progress report",
+        "menu_vd_4_2": "Contract package report",
+        "menu_vd_5": "System settings"
+    }
+}

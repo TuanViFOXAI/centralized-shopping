@@ -1,0 +1,31 @@
+[{
+  "MnCode": "menu_1",
+  "Icon": "pi pi-fw pi-home",
+  "Link":"/"
+},
+{
+  "MnCode": "menu_vd_2",
+  "Icon": "pi pi-fw pi-file-edit",
+  "Link":"company-information"
+},
+{
+  "MnCode": "menu_vd_3",
+  "Icon": "pi pi-fw pi-table",
+  "Link":"manage-supplier-bidding-packages"
+}
+,
+{
+  "MnCode": "menu_vd_4",
+  "Icon": "pi pi-fw pi-list",
+  "children": [
+    {"MnCode": "menu_vd_4_1","Icon": "pi pi-fw pi-chart-bar", "Link": "#"},
+    {"MnCode": "menu_vd_4_2","Icon": "pi pi-fw pi-info-circle", "Link": "#"}
+  ]
+},
+{
+  "MnCode": "menu_vd_5",
+  "Icon": "pi pi-fw pi-cog",
+  "Link":"config-notification"
+}
+]
+

@@ -1,0 +1,352 @@
+{
+    "server_error": {
+        "error_data": "Không thể tải xuống dữ liệu"
+    },
+    "severity": {
+        "success": "Thành công",
+        "info": "Thông báo",
+        "warn": "Cảnh báo",
+        "error": "Lỗi"
+    },
+
+    "time_format": {
+        "qny": "Quý %{0} / %{1}"
+    },
+
+    "dlg_title": {
+        "add": "Thêm mới %{0}",
+        "update": "Chỉnh sửa %{0}"
+    },
+    "cf_dl": {
+        "del_title": "Xác nhận xoá",
+        "delete": "Bạn có muốn xoá bản ghi này?",
+        "deletes": "Bạn có muốn xoá %{0} bản ghi này?"
+    },
+    "toast_message": {
+        "add_success": "Thêm mới thành công",
+        "edit_success": "Sửa thành công",
+        "duplicate_name": "%{0} đã tồn tại",
+        "delete_success": "Xóa thành công",
+        "error_code": "Mã đã tồn tại",
+        "error_code1": "Mã %{0} đã tồn tại",
+        "not_found_record": "Không có bản ghi nào",
+        "not_found_record1": "Không tìm thấy %{0}"
+    },
+    "valid_msg": {
+        "null": "%{0} không được để trống",
+        "leng": "%{0} không được vượt quá %{1} ký tự",
+        "invalid_email": "Email không hợp lệ",
+        "exist": "Trùng %{0}",
+        "ConfDelete": "Xác nhận xóa %{0}",
+        "ConfDelete2": "Xác nhận xóa"
+    },
+    "Button": {
+        "AddNew": "Thêm mới",
+        "Cancel": "Huỷ",
+        "Save": "Lưu",
+        "Delete": "Xoá",
+        "Done": "Xong",
+        "Detail": "Xem chi tiết",
+        "Close": "Đóng",
+        "Edit": "Sửa",
+        "Chose": "Chọn"
+    },
+    "InputText": {
+        "Search": "Tìm kiếm"
+    },
+    "Status": {
+        "Active": "Đang hoạt động",
+        "InActive": "Không hoạt động",
+        "Status": "Trạng thái",
+        "Invited": "Đã kích hoạt",
+        "Registered": "Đã kích hoạt",
+        "Unregistered": "Chưa kích hoạt",
+        "SelectStatus": "Chọn trạng thái"
+    },
+    "approval_status": {
+        "approved": "Đã duyệt",
+        "pending": "Đang chờ duyệt",
+        "rejected": "Từ chối",
+        "canceled": "Đã huỷ",
+        "empty": "Trống"
+    },
+    "Action": {
+        "deletion": "Xác nhận xóa",
+        "deletionnoti": "Bạn chắc chắn muốn xóa ",
+        "deletionnoti1": "bản ghi này?",
+        "act": "Hành động",
+        "SelectRows": "Chọn thao tác cho %{0} dòng đang chọn"
+    },
+    "OrgStrct": {
+        "Header": "Cơ cấu tổ chức",
+        "SelectRows": "Chọn thao tác %{0} đang chọn",
+        "TableName": "Danh sách đơn vị trực thuộc",
+        "UnitLevel": "Cấp tổ chức",
+        "UnitName": "Tên đơn vị",
+        "UnitName_plh": "Nhập tên đơn vị",
+        "UnitCode": "Mã đơn vị",
+        "BelongDepartment": "Thuộc đơn vị",
+        "OrgLevel": "Cấp tổ chức",
+"SelectOrgLevel": "Chọn cấp tổ chức",
+        "ParentUnit": "Đơn vị cấp trên",
+        "Status": "Trạng thái",
+        "Action": "Hành động",
+        "add": "Thêm mới cơ cấu tổ chức",
+        "edit": "Chỉnh sửa cơ cấu tổ chức",
+        "to": "đến",
+        "of": "của"
+    },
+    "Orglv": {
+        "Header": "Danh mục cấp tổ chức",
+        "OrlName": "Cấp tổ chức",
+        "OrlDesc": "Mô tả",
+        "is_active": "Trạng thái",
+        "A": "Hoạt động",
+        "I": "Không hoạt động",
+        "act": "Hành động",
+        "add": "Thêm mới cấp tổ chức",
+        "edit": "Sửa cấp tổ chức",
+        "validate": "Không được bỏ trống cấp tổ chức."
+    },
+
+    "Professions": {
+        "Header": "Ngành nghề lĩnh vực",
+        "IndCode" : "Mã",
+        "ListIn": "Danh sách ngành nghề lĩnh vực",
+        "IndName": "Tên ngành nghề, lĩnh vực"
+    },
+
+    "supplier_catalog": {
+        "object_name": "Nhà cung cấp",
+        "header": "Danh mục nhà cung cấp",
+        "index": "STT",
+        "tax": "Mã số thuế",
+        "plh_tax": "Nhập mã số thuế",
+        "plh_email": "Nhập email của nhà cung cấp",
+        "name": "Tên nhà cung cấp",
+        "plh_name": "Nhập tên nhà cung cấp",
+        "address": "Địa chỉ",
+        "phone": "Số điện thoại",
+        "field_profession": "Ngành nghề lĩnh vực",
+        "status": "Trạng thái",
+        "registration_status": "Trạng thái kích hoạt",
+        "w_header": "Thông tin doanh nghiệp",
+        "noti": "(Tài khoản và mật khẩu sẽ được gửi tới email này)"
+    },
+    "supplier_group": {
+        "header": "Danh sách nhóm nhà cung cấp",
+        "group_code": "Mã nhóm nhà cung cấp",
+        "group_name": "Tên nhóm nhà cung cấp",
+        "is_active": "Trạng thái",
+        "A": "Hoạt động",
+        "I": "Ngưng hoạt động",
+        "act": "Hành động",
+        "add": "Thêm nhóm nhà cung cấp mới",
+        "edit": "Chỉnh sửa thông tin nhóm nhà cung cấp",
+        "validate": "Mã nhà cung cấp không được để trống.",
+        "validate1": "Tên nhà cung cấp không được để trống."
+    },
+    "supplier_information": {
+        "header": "Quản lý thông tin doanh nghiệp",
+        "supplier_name": "Tên công ty",
+        "supplier_orthername": "Tên khác",
+        "overview": "Tổng quan",
+        "acc_info_link": "Thông tin tài khoản",
+        "revenue": "Doanh thu",
+        "contract": "Hợp đồng đã thực hiện",
+        "certificate": "Chứng nhận",
+        "document": "Tài liệu",
+        "capability_profile": "Hồ sơ năng lực",
+        "tax": "Mã số thuế",
+        "phone": "Số điện thoại",
+        "email": "Email",
+        "founded": "Năm thành lập",
+        "address": "Địa chỉ trụ sở",
+"employes": "Số lượng nhân sự",
+        "branches": "Số lượng chi nhánh",
+        "contact": "Thông tin liên hệ",
+        "contact_persion": "Người liên hệ",
+        "contact_persion_role": "Chức vụ",
+        "contact_persion_phone": "Số điện thoại",
+        "field_profes_title": "Ngành nghề lĩnh vực",
+        "warehouse_title": "Thông tin kho vận",
+        "docs_title": "Tài liệu đính kèm",
+        "total_docs": "Tổng tài liệu có %{0} file"
+    },
+    "system_permision": {
+        "header": "Phân quyền hệ thống",
+        "user": "Người dùng",
+        "user_group": "Nhóm người dùng",
+        "copy_permission": "Sao chép phân quyền"
+    },
+    "purchasing_plans": {
+        "product_list": "Danh sách vật tư hàng hoá",
+        "select_product": "Chọn sản phẩm",
+        "obj_name": "Kế hoạch mua sắm",
+        "header": "Quản lý kế hoạch mua sắm",
+        "plan_name": "Tên kế hoạch",
+        "plan_name_holder": "Nhập tên kế hoạch",
+        "plan_code": "Mã kế hoạch",
+        "creater": "Người tạo",
+        "father": "Đơn vị",
+        "father_holder": "Chọn đơn vị đề xuất kế hoạch",
+        "expiry": "Thời gian thực hiện",
+        "year_holder": "Năm",
+        "quarter_holder": "Quý",
+        "quarters": [
+            {
+                "value": 1,
+                "label": "Quý 1"
+            },
+            {
+                "value": 2,
+                "label": "Quý 2"
+            },
+            {
+                "value": 3,
+                "label": "Quý 3"
+            },
+            {
+                "value": 4,
+                "label": "Quý 4"
+            }
+        ],
+        "statusOptions": [
+            {
+                "value": "A",
+                "label": "Đang hoạt động"
+            },
+            {
+                "value": "I",
+                "label": "Không hoạt động"
+            }
+        ],
+        "status": "Trạng thái phê duyệt",
+        "tab_1": "Danh sách vật tư hàng hoá cần mua sắm",
+        "tab_2": "Chứng từ đính kèm",
+        "no": "STT",
+        "prd_name": "Tên vật tư hàng hoá",
+        "prd_unit": "Đơn vị tính",
+        "prd_quantity": "Số lượng",
+        "expt_price": "Đơn giá dự kiến",
+        "to_price": "Thành tiền",
+        "desc": "Ghi chú"
+    },
+    "login": {
+        "header": "Chào mừng đến với FoxAi",
+        "sub_header": "Đăng nhập để tiếp tục",
+        "user_name": "Tên Đăng Nhập",
+        "inner_user_name": "Nhập tên đăng nhập",
+        "username_required": "Yêu cầu tên người dùng",
+        "invalid_email":"Email không hợp lệ",
+        "password_required": "Yêu cầu mật khẩu",
+        "password": "Mật Khẩu",
+        "inner_password": "Nhập mật khẩu",
+"invalid_password":"Mật khẩu: ít nhất 8 ký tự, chứa ít nhất một chữ cái và một số",
+        "remember_password": "Nhớ mật khẩu",
+        "forget_password": "Quên mật khẩu?",
+        "log_in": "Đăng nhập",
+        "vi_lang": "Tiếng Việt",
+        "en_lang": "Tiếng Anh"
+    },
+    "user_namagement": {
+        "header": "Danh sách người dùng",
+        "user_name": "Tên người dùng",
+        "email": "Email",
+        "father": "Đơn vị trực thuộc",
+        "dl_title": "Thêm mới người dùng"
+    },
+    "user_group": {
+        "object_name": "Nhóm người dùng",
+        "header": "Danh sách nhóm người dùng",
+        "group_name": "Tên nhóm",
+        "user_quantity": "Số lượng người dùng",
+        "users": "Danh sách người dùng",
+        "user": "Người dùng",
+        "add_user": "Thêm người dùng",
+        "dsc": "Mô tả",
+        "date": "Ngày tạo",
+        "status": "Trạng thái",
+        "title_add": "Thêm mới nhóm người dùng",
+        "title_add_user": "Thêm mới người dùng vào nhóm",
+        "plh_name": "Nhập tên nhóm người dùng",
+        "title_update": "Chỉnh sửa nhóm người dùng",
+        "del_title": "Xác nhận xoá nhóm người dùng",
+        "del_detail": "Bạn có muốn xoá nhóm người dùng %{0} không?"
+    },
+    "procurement_requests": {
+        "table_name": "Yêu cầu mua sắm",
+        "header": "Quản lý yêu cầu mua sắm"
+    },
+
+    "menu":{
+        "menu_0": "Menu",
+        "menu_1": "Trang chủ",
+        "menu_2": "Quản lý thông tin doanh nghiệp",
+        "menu_2_1": "Cơ cấu tổ chức",
+        "menu_2_1_1": "Danh mục cơ cấu tổ chức",
+        "menu_2_1_2": "Danh mục cấp tổ chức",
+        "menu_2_2": "Nhà cung cấp",
+        "menu_2_2_1": "Danh mục nhà cung cấp",
+        "menu_2_2_2": "Danh mục nhóm nhà cung cấp",
+        "menu_2_3": "Quản lý vật tư hàng hoá",
+        "menu_2_3_1": "Danh mục vật tư hàng hoá",
+        "menu_2_3_2": "Danh mục nhóm vật tư hàng hoá",
+        "menu_2_3_3": "Danh mục đơn vị tính",
+        "menu_2_3_4": "Danh mục nhóm đơn vị tính",
+        "menu_2_4": "Ngành nghề lĩnh vực",
+        "menu_2_5": "Hình thức đấu thầu",
+        "menu_2_6": "Tiêu chí đánh giá nhà cung cấp",
+        "menu_2_7": "Trạng thái hồ sơ",
+        "menu_3":"Quản lý mua sắm",
+        "menu_3_1": "Quản lí người dùng",
+        "menu_3_1_1": "Người dùng",
+        "menu_3_1_2": "Nhóm người dùng",
+        "menu_3_2": "Phân quyền hệ thống",
+        "menu_3_3": "Quy trình phê duyệt",
+        "menu_3_3_1": "Cấp phê duyệt",
+        "menu_3_3_2": "Mẫu phê duyệt",
+        "menu_3_3_3": "Báo cáo trạng thái phê duyệt",
+        "menu_3_3_4": "Báo cáo quyết định phê duyệt",
+        "menu_3_4": "Tiêu chí chấm điểm",
+        "menu_3_4_1": "Thiết lập tiêu chí",
+        "menu_3_4_2": "Thiết lập trọng số",
+        "menu_3_5": "Quy trình đấu thầu",
+        "menu_3_6": "Thiết lập thông báo",
+        "menu_3_7": "Thiết lập chung hệ thống",
+        "menu_3_8": "Tiền tệ và Quy đổi tỷ giá",
+        "menu_3_8_1": "Tiền tệ",
+        "menu_3_8_2": "Quy đổi tỷ giá",
+        "menu_4": "Báo cáo",
+        "menu_4_1": "Kế hoạch mua sắm",
+        "menu_4_2": "Yêu cầu mua sắm",
+        "menu_4_3": "Tổng hợp yêu cầu mua sắm",
+        "menu_4_4": "Quản lý gói thầu",
+        "menu_4_5": "Đánh giá chấm điểm",
+        "menu_4_5_1": "Danh sách hồ sơ",
+        "menu_4_5_2": "Chấm điểm - Lựa chọn",
+        "menu_4_6": "Tạo link, gửi mail đến nhà cung cấp",
+        "menu_4_7": "Đánh giá nhà cung cấp",
+        "menu_4_8": "Đơn hàng mua",
+        "menu_4_9": "Phiếu nhập kho hàng mua",
+        "menu_5": "Thiết lập hệ thống",
+        "menu_5_1": "Báo cáo tiến độ thực hiện",
+        "menu_5_1_1": "Kế hoạch mua sắm",
+        "menu_5_1_2": "Yêu cầu mua sắm",
+        "menu_5_1_3": "Gói thầu mua sắm",
+        "menu_5_1_4": "Giao - nhận hàng",
+        "menu_5_2": "Báo cáo tiến độ thực hiện",
+        "menu_5_2_1": "Báo cáo so sánh giá ",
+        "menu_5_2_2": "Báo cáo so sánh nhà cung cấp",
+        "menu_5_3": "Báo cáo sản lượng",
+        "menu_5_3_1": "Báo cáo sản lượng",
+        "menu_5_3_2": "Báo cáo sản lượng",
+        "menu_5_3_3": "Báo cáo sản lượng",
+        "menu_vd_2": "Quản lý thông tin",
+        "menu_vd_3": "Quản lý gói thầu",
+        "menu_vd_4": "Báo cáo",
+        "menu_vd_4_1": "Báo cáo tiến độ",
+        "menu_vd_4_2": "Báo cáo gói thầu",
+        "menu_vd_5": "Thiết lập hệ thống"
+    }
+}
